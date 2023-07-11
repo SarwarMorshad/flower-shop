@@ -24,15 +24,14 @@ body {
 
 /* Header Section */
 /* Navbar */
-#country {
-  font-size: 40px;
-}
+
 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0px 200px;
 }
+
 nav > ul {
   display: flex;
   align-items: center;
@@ -40,6 +39,8 @@ nav > ul {
 
 nav li {
   list-style: none;
+  font-family: lato;
+  font-weight: 800;
   margin-right: 50px;
   font-size: 30px;
 }
@@ -47,16 +48,38 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+  margin-bottom: 10px;
 }
+
+/* Nested Menu style */
+nav li .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #e55473;
+  opacity: 10;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  border: 5px;
+  border-radius: 10px;
+  padding: 30px 10px;
+  text-align: justify;
+  box-shadow: 5px 10px 18px black;
+}
+
+nav li:hover .dropdown-menu {
+  display: block;
+}
+
 .nav-title-text {
-  color: #e55473;
+  color: hwb(347 33% 10%);
   font-size: 48px;
   font-weight: 800;
   text-transform: uppercase;
   text-align: center;
 }
 .header {
-  background: rgba(229, 84, 115, 0.1);
+  background: #e554731a;
   margin-top: 0px;
 }
 
