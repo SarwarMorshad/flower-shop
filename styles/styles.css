@@ -24,11 +24,36 @@ body {
 
 /* Header Section */
 /* Navbar */
+#country {
+  font-size: 40px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 200px;
+}
+nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 50px;
+  font-size: 30px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #474747;
+}
 .nav-title-text {
   color: #e55473;
   font-size: 48px;
   font-weight: 800;
   text-transform: uppercase;
+  text-align: center;
 }
 .header {
   background: rgba(229, 84, 115, 0.1);
