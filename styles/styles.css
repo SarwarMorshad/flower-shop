@@ -19,6 +19,7 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin-top: 150px;
 }
 
 /* Header Section */
@@ -180,3 +181,53 @@ main {
   font-weight: 400;
   line-height: 30px;
 }
+
+/* More Flower */
+.more-flower-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+  margin-bottom: 128px;
+}
+
+.more-flower-info {
+  max-width: 342px;
+  margin-right: 24px;
+}
+.subscribe {
+  background-image: url("../images/Rectangle\ 9.png");
+}
+
+.subscribe-container {
+  display: block;
+  text-align: center;
+}
+
+.subscribe-title {
+  color: #272727;
+  /* text-align: center; */
+  font-size: 40px;
+  padding-top: 120px;
+}
+
+.subscribe-description {
+  color: rgba(39, 39, 39, 0.6);
+  /* text-align: center; */
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.contact input[type="email"] {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 23px 23px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+  width: 50%;
+  margin-right: 10px;
+  margin-bottom: 120px;
+}
+
+/* Footer */
